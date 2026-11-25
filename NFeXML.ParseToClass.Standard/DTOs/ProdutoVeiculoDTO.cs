@@ -24,6 +24,7 @@
         public string TipoOperacao { get; set; }
         public string CodigoCor { get; set; }
         public string DescricaoCor { get; set; }
+        public string CodigoCorDenatran { get; set; }
         public string TipoRestricao { get; set; }
     }
 }

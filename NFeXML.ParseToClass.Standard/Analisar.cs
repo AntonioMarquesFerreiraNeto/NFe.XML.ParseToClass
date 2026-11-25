@@ -176,8 +176,9 @@ namespace NFeXML.ParseToClass.Standard
                     PotenciaMotor = dados.pot,
                     DistanciaEntreEixos = dados.dist,
                     TipoOperacao = $"{(int)dados.tpOp}",
-                    CodigoCor = dados.cCorDENATRAN,
+                    CodigoCor = dados.cCor,
                     DescricaoCor = dados.xCor,
+                    CodigoCorDenatran = dados.cCorDENATRAN,
                     TipoRestricao = $"{(int)dados.tpRest}",
                 };
 
